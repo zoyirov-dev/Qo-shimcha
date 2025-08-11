@@ -1,4 +1,10 @@
 import React from 'react';
+import aboutHero from '../images/About us hero.png';
+import whoWeAre from '../images/Who we are.png';
+import team1 from '../images/ce2bda825ab4d67761af2ea0410c9ca7461ad67a.png';
+import team2 from '../images/415ae2b435aaebfdeb7acbb107459f0b8643ad03.png';
+import team3 from '../images/c441e9a2e469601b15b8a2294b76805bbeaded56.png';
+import team4 from '../images/33ccc9b9f7e17cd48bd93bc23df7cb7a5a4e421f.png';
 
 const About = () => {
   return (
@@ -17,9 +23,11 @@ const About = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src="/About us hero.png" 
+                src={aboutHero}
                 alt="About Us Hero"
-                loading="lazy"
+                loading="eager"
+                fetchpriority="high"
+                decoding="sync"
                 className="w-full max-w-lg"
               />
             </div>
@@ -54,9 +62,10 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-center mb-16">
             <img 
-              src="/Who we are.png" 
+              src={whoWeAre}
               alt="Who We Are"
               loading="lazy"
+              decoding="async"
               className="w-full max-w-4xl"
             />
           </div>
@@ -74,7 +83,7 @@ const About = () => {
             <div className="text-center">
               <div className="relative mb-4">
               <img 
-                  src="/ce2bda825ab4d67761af2ea0410c9ca7461ad67a.png" 
+                  src={team1} 
                   alt="John Smith"
                   loading="lazy"
                   className="w-32 h-32 rounded-full mx-auto"
@@ -97,7 +106,7 @@ const About = () => {
             </div>
             <div className="text-center">
               <img 
-                src="/415ae2b435aaebfdeb7acbb107459f0b8643ad03.png" 
+                src={team2} 
                 alt="Simon Adams"
                 loading="lazy"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
@@ -107,7 +116,7 @@ const About = () => {
             </div>
             <div className="text-center">
               <img 
-                src="/c441e9a2e469601b15b8a2294b76805bbeaded56.png" 
+                src={team3} 
                 alt="Paul Jones"
                 loading="lazy"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
@@ -117,7 +126,7 @@ const About = () => {
             </div>
             <div className="text-center">
               <img 
-                src="/33ccc9b9f7e17cd48bd93bc23df7cb7a5a4e421f.png" 
+                src={team4} 
                 alt="Sara Hardin"
                 loading="lazy"
                 className="w-32 h-32 rounded-full mx-auto mb-4"

@@ -1,4 +1,10 @@
 import React from 'react';
+import portfolio1 from '../images/portifolio1image.png';
+import template2 from '../images/tamplate2image.png';
+import template3 from '../images/template3image.png';
+import template4 from '../images/template4.image.png';
+import template5 from '../images/temolate5image.png';
+import template6 from '../images/temolate6image.png';
 
 const Work = () => {
   return (
@@ -47,9 +53,9 @@ const Work = () => {
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/portifolio1image.png" alt="Template 1" className="w-full h-64 object-cover" />
+              <img src={portfolio1} alt="Template 1" loading="lazy" decoding="async" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Template 1</h3>
                 <p className="text-gray-600 mb-4">
@@ -65,7 +71,7 @@ const Work = () => {
             </div>
             
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/src/images/tamplate2image.png" alt="Template 2" className="w-full h-64 object-cover" />
+              <img src={template2} alt="Template 2" loading="lazy" decoding="async" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Template 2</h3>
                 <p className="text-gray-600 mb-4">
@@ -81,7 +87,7 @@ const Work = () => {
             </div>
             
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/src/images/template3image.png" alt="Template 3" className="w-full h-64 object-cover" />
+              <img src={template3} alt="Template 3" loading="lazy" decoding="async" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Template 3</h3>
                 <p className="text-gray-600 mb-4">
@@ -97,7 +103,7 @@ const Work = () => {
             </div>
             
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/src/images/template4.image.png" alt="Template 4" className="w-full h-64 object-cover" />
+              <img src={template4} alt="Template 4" loading="lazy" decoding="async" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Template 4</h3>
                 <p className="text-gray-600 mb-4">
@@ -113,7 +119,7 @@ const Work = () => {
             </div>
             
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/src/images/temolate5image.png" alt="Template 5" className="w-full h-64 object-cover" />
+              <img src={template5} alt="Template 5" loading="lazy" decoding="async" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Template 5</h3>
                 <p className="text-gray-600 mb-4">
@@ -129,7 +135,7 @@ const Work = () => {
             </div>
             
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/src/images/temolate6image.png" alt="Template 6" className="w-full h-64 object-cover" />
+              <img src={template6} alt="Template 6" loading="lazy" decoding="async" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Template 6</h3>
                 <p className="text-gray-600 mb-4">

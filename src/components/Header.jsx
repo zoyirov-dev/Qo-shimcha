@@ -18,7 +18,7 @@ const Header = () => {
             <Link
               to="/"
               className={`text-white font-medium transition duration-300 hover:text-[#FF6B6B] ${
-                location.pathname === '/' ? 'text-[#FF6B6B]' : ''
+                location.pathname === '/' ? 'text-[#FF6B6B] underline underline-offset-8' : ''
               }`}
             >
               Promotion
@@ -26,7 +26,7 @@ const Header = () => {
             <Link
               to="/home"
               className={`text-white font-medium transition duration-300 hover:text-[#FF6B6B] ${
-                location.pathname === '/home' ? 'text-[#FF6B6B]' : ''
+                location.pathname === '/home' ? 'text-[#FF6B6B] underline underline-offset-8' : ''
               }`}
             >
               Home
@@ -34,7 +34,7 @@ const Header = () => {
             <Link
               to="/about"
               className={`text-white font-medium transition duration-300 hover:text-[#FF6B6B] ${
-                location.pathname === '/about' ? 'text-[#FF6B6B]' : ''
+                location.pathname === '/about' ? 'text-[#FF6B6B] underline underline-offset-8' : ''
               }`}
             >
               About us
@@ -42,7 +42,7 @@ const Header = () => {
             <Link
               to="/pricing"
               className={`text-white font-medium transition duration-300 hover:text-[#FF6B6B] ${
-                location.pathname === '/pricing' ? 'text-[#FF6B6B]' : ''
+                location.pathname === '/pricing' ? 'text-[#FF6B6B] underline underline-offset-8' : ''
               }`}
             >
               Pricing
@@ -50,7 +50,7 @@ const Header = () => {
             <Link
               to="/work"
               className={`text-white font-medium transition duration-300 hover:text-[#FF6B6B] ${
-                location.pathname === '/work' ? 'text-[#FF6B6B]' : ''
+                location.pathname === '/work' ? 'text-[#FF6B6B] underline underline-offset-8' : ''
               }`}
             >
               Work
@@ -58,7 +58,7 @@ const Header = () => {
             <Link
               to="/blog"
               className={`text-white font-medium transition duration-300 hover:text-[#FF6B6B] ${
-                location.pathname === '/blog' ? 'text-[#FF6B6B]' : ''
+                location.pathname === '/blog' ? 'text-[#FF6B6B] underline underline-offset-8' : ''
               }`}
             >
               Blog

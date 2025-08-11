@@ -1,4 +1,8 @@
 import React from 'react';
+import Illustration from '../images/Illustration.svg';
+import portfolio1 from '../images/portifolio1image.png';
+import template2 from '../images/tamplate2image.png';
+import template3 from '../images/template3image.png';
 
 const Home = () => {
   return (
@@ -27,13 +31,15 @@ const Home = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src="/Illustration.svg" 
+                src={Illustration}
                 alt="Web Development Illustration"
-                loading="lazy"
+                loading="eager"
+                fetchpriority="high"
+                decoding="sync"
                 className="w-full max-w-lg"
               />
             </div>
-          </div>
+          </div>ha 
         </div>
       </section>
 
@@ -50,7 +56,7 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/portifolio1image.png" alt="Workhub office" loading="lazy" className="w-full h-64 object-cover" />
+              <img src={portfolio1} alt="Workhub office" loading="lazy" decoding="async" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Workhub office Webflow Design</h3>
                 <p className="text-gray-600 mb-4">
@@ -65,7 +71,7 @@ const Home = () => {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/tamplate2image.png" alt="Unisaas Website" loading="lazy" className="w-full h-64 object-cover" />
+              <img src={template2} alt="Unisaas Website" loading="lazy" decoding="async" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Unisaas Website Design</h3>
                 <p className="text-gray-600 mb-4">
@@ -80,7 +86,7 @@ const Home = () => {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/template3image.png" alt="Template 3" loading="lazy" className="w-full h-64 object-cover" />
+              <img src={template3} alt="Template 3" loading="lazy" decoding="async" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Template 3 Design</h3>
                 <p className="text-gray-600 mb-4">

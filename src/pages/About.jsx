@@ -17,8 +17,9 @@ const About = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src="/src/images/About us hero.png" 
+                src="/About us hero.png" 
                 alt="About Us Hero"
+                loading="lazy"
                 className="w-full max-w-lg"
               />
             </div>
@@ -53,8 +54,9 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-center mb-16">
             <img 
-              src="/src/images/Who we are.png" 
+              src="/Who we are.png" 
               alt="Who We Are"
+              loading="lazy"
               className="w-full max-w-4xl"
             />
           </div>
@@ -71,9 +73,10 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="relative mb-4">
-                <img 
-                  src="/src/images/ce2bda825ab4d67761af2ea0410c9ca7461ad67a.png" 
+              <img 
+                  src="/ce2bda825ab4d67761af2ea0410c9ca7461ad67a.png" 
                   alt="John Smith"
+                  loading="lazy"
                   className="w-32 h-32 rounded-full mx-auto"
                 />
                 <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
@@ -94,8 +97,9 @@ const About = () => {
             </div>
             <div className="text-center">
               <img 
-                src="/src/images/415ae2b435aaebfdeb7acbb107459f0b8643ad03.png" 
+                src="/415ae2b435aaebfdeb7acbb107459f0b8643ad03.png" 
                 alt="Simon Adams"
+                loading="lazy"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Simon Adams</h3>
@@ -103,8 +107,9 @@ const About = () => {
             </div>
             <div className="text-center">
               <img 
-                src="/src/images/c441e9a2e469601b15b8a2294b76805bbeaded56.png" 
+                src="/c441e9a2e469601b15b8a2294b76805bbeaded56.png" 
                 alt="Paul Jones"
+                loading="lazy"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Paul Jones</h3>
@@ -112,8 +117,9 @@ const About = () => {
             </div>
             <div className="text-center">
               <img 
-                src="/src/images/33ccc9b9f7e17cd48bd93bc23df7cb7a5a4e421f.png" 
+                src="/33ccc9b9f7e17cd48bd93bc23df7cb7a5a4e421f.png" 
                 alt="Sara Hardin"
+                loading="lazy"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Sara Hardin</h3>

@@ -27,8 +27,9 @@ const Home = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src="/src/images/Illustration.svg" 
+                src="/Illustration.svg" 
                 alt="Web Development Illustration"
+                loading="lazy"
                 className="w-full max-w-lg"
               />
             </div>
@@ -49,7 +50,7 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/src/images/portifolio1image.png" alt="Workhub office" className="w-full h-64 object-cover" />
+              <img src="/portifolio1image.png" alt="Workhub office" loading="lazy" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Workhub office Webflow Design</h3>
                 <p className="text-gray-600 mb-4">
@@ -64,7 +65,7 @@ const Home = () => {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/src/images/tamplate2image.png" alt="Unisaas Website" className="w-full h-64 object-cover" />
+              <img src="/tamplate2image.png" alt="Unisaas Website" loading="lazy" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Unisaas Website Design</h3>
                 <p className="text-gray-600 mb-4">
@@ -79,7 +80,7 @@ const Home = () => {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/src/images/template3image.png" alt="Template 3" className="w-full h-64 object-cover" />
+              <img src="/template3image.png" alt="Template 3" loading="lazy" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Template 3 Design</h3>
                 <p className="text-gray-600 mb-4">
@@ -194,7 +195,7 @@ const Home = () => {
               </p>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
-                  <img src="/src/images/33ccc9b9f7e17cd48bd93bc23df7cb7a5a4e421f.png" alt="Jenny Wilson" className="w-12 h-12 rounded-full" />
+                  <img src="/33ccc9b9f7e17cd48bd93bc23df7cb7a5a4e421f.png" alt="Jenny Wilson" className="w-12 h-12 rounded-full" />
                   <div>
                     <p className="font-semibold text-gray-900">Jenny Wilson</p>
                     <p className="text-gray-600">Vice President</p>

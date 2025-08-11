@@ -14,8 +14,9 @@ const Blog = () => {
             </p>
             <div className="mb-8">
               <img 
-                src="/src/images/blog1.png" 
+                src="/blog1.png" 
                 alt="Blog Hero Image"
+                loading="lazy"
                 className="w-full max-w-4xl mx-auto rounded-lg"
               />
             </div>
@@ -38,20 +39,14 @@ const Blog = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3, 4, 5, 6].map((item) => (
-              <article key={item} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="bg-gray-300 h-48"></div>
+            {['/blog2.png','/blog3.png','/blog4.png','/blog5.png','/blog6.png','/blog1.png'].map((src) => (
+              <article key={src} className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src={src} loading="lazy" alt="Blog" className="w-full h-48 object-cover" />
                 <div className="p-6">
                   <p className="text-sm text-gray-500 mb-3">27 Jan 2021</p>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                    How one Webflow user grew his single person consultancy from $0-100K in 14 months
-                  </h3>
-                  <p className="text-gray-600 mb-4">
-                    See how pivoting to Webflow changed one person's sales strategy and allowed him to attract, retain, and scale customers.
-                  </p>
-                  <button className="text-gray-900 hover:text-gray-700 font-medium">
-                    Read More →
-                  </button>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
+                  <p className="text-gray-600 mb-4">See how pivoting to Webflow changed one person's sales strategy and allowed him to attract, retain, and scale customers.</p>
+                  <button className="text-gray-900 hover:text-gray-700 font-medium">Read More →</button>
                 </div>
               </article>
             ))}

@@ -64,7 +64,7 @@ const Promotion = () => {
 
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">Color palette</h2>
-            <div className="grid grid-cols-6 gap-4">
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4">
               <div className="w-20 h-20 bg-blue-500 rounded-lg"></div>
               <div className="w-20 h-20 bg-[#0B0D39] rounded-lg"></div>
               <div className="w-20 h-20 bg-yellow-400 rounded-lg"></div>

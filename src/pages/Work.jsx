@@ -49,7 +49,7 @@ const Work = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="/src/images/portifolio1image.png" alt="Template 1" className="w-full h-64 object-cover" />
+              <img src="/portifolio1image.png" alt="Template 1" className="w-full h-64 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Template 1</h3>
                 <p className="text-gray-600 mb-4">
